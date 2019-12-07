@@ -1,6 +1,6 @@
 # 내 주변의 세금도둑 API
 
-[![Run on Ainize](https://ainize.ai/static/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=github.com/hannut91/tax-thiefs-api)
+[![Run on Ainize](https://ainize.ai/static/images/run_on_ainize_button.svg)](https://endpoint.ainize.ai/hannut91/tax-thiefs-api/thiefs)
 
 ![](https://user-images.githubusercontent.com/14071105/70370628-ae223200-190c-11ea-8742-3361047a230d.jpeg)
 
