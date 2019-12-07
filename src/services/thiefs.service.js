@@ -4,7 +4,7 @@ import { Iconv } from 'iconv';
 
 const uri = 'https://www.nts.go.kr/openinfo/openinfo_03_01_list.asp?nsearch_utype=1';
 const MAPPER = ['num', 'year', 'name', 'age', 'shop', 'job', 'addr', 'total',
-  'taxItem', 'data', 'behiList'];
+  'taxItem', 'date', 'behiList'];
 
 const onlyTypeTag = ({ type }) => type === 'tag';
 
