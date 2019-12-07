@@ -1,0 +1,41 @@
+openapi: 3.0.0
+info:
+  title: Tax Thiefs API
+  description: Get tax theifs from [국세청](https://www.nts.go.kr/openinfo/openinfo_03_01_list.asp).
+  version: 0.0.1
+servers:
+  - url: https://endpoint.ainize.ai/hannut91/tax-thiefs-api
+    description: Tag thiefs server on Ainize.
+paths:
+  /thiefs:
+    get:
+      summary: Returns a list of thiefs.
+      parameters:
+        - in: query
+          name: page
+          required: false
+          description: Page number.
+          schema:
+            type : integer
+            format: int64
+            minimum: 1
+      description: Get thiefs.
+      responses:
+        "200":
+          description: Get thiefs.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  num: string
+                  year: string
+                  name: string
+                  age: string
+                  shop: string
+                  job: string
+                  addr: string
+                  total: string
+                  taxItem: string
+                  date: string
+                  behiList: string
