@@ -7,4 +7,7 @@ module.exports = {
     '/node_modules/',
     '/dist/',
   ],
+  // transformIgnorePatterns: [
+  //   '^.+\\.[t|j]sx?$'
+  // ]
 };

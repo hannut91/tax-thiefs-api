@@ -3,7 +3,7 @@ module.exports = {
     "@babel/env",
   ],
   "plugins": ["@babel/plugin-transform-runtime"],
-  ignore: [
-    "**/*.test.js",
-  ]
+  // ignore: [
+  //   "**/*.test.js",
+  // ]
 };
